@@ -1,15 +1,11 @@
 # AtmiraAPI
 
 A. API: 
-  -Objetivo: 
-  Exponer un endpoint que reciba un planeta como parámetro y que devuelva un listado en
-  formato json con el top 3 de asteroides más grandes con potencial riesgo de impacto en dicho
-  planeta en los próximos 7 días. En caso de que no haya 3 o más planetas bajo estas
-  condiciones, devolver los que sea que apliquen.
+  - Objetivo: Exponer un endpoint que reciba un planeta como parámetro y que devuelva un listado en formato json con el top 3 de asteroides más grandes con potencial riesgo de impacto en dicho planeta en los próximos 7 días. En caso de que no haya 3 o más planetas bajo estas condiciones, devolver los que sea que apliquen.
 
-  -Estructura: Desarrollada en C# bajo Framework Asp NET Core
+  - Estructura: Desarrollada en C# bajo Framework Asp NET Core
 
-  -Packages instalados: Microsoft.AspNet.WebApi.Client (5.2.9).
+  - Packages instalados: Microsoft.AspNet.WebApi.Client (5.2.9).
   
 B. TEST
   - Objetivo: Probar los distintos posibles resultados que podrá devolver la función GetListAsteroid existente en el controlador RootController.
