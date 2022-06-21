@@ -21,4 +21,5 @@ B. TEST
   4. Mejoras:
     4.1 Teorías: Se podría barajar la posibilidad unificar los tests GetListAsteroid_ShouldReturnNotFoundObject_IfPlanetNameIsEmpty y  GetListAsteroid_ShouldReturnOKObject_IfPlanetNameIsEarth en uno, utilizando los InlineData() como atributos del método.
     
-    4.2 Objetos simulados (Mocks): Podríamos crear un fichero json guardado en local con los resultado de la llamada al webservice de la NASA y que fuese procesado por una función GetListAsteroidMock, que a diferencia de la existente, no haría ninguna llamada http sino que trabajaría en local con el archivo json (streams). 
+    4.2 Objetos simulados (Mocks): Podríamos crear un fichero json guardado en local con los resultado de la llamada al webservice de la NASA. 
+    Y que posteriormente fuese procesado por una función GetListAsteroidMock, que a diferencia de la existente, no habría ninguna llamada http sino que trabajaría en local con el archivo json (streams). 
