@@ -20,4 +20,4 @@ jobs:
     - name: Build
       run: dotnet build "AtmiraAPI.sln"
     - name: Test
-      run: dotnet test "AtmiraAPI.sln"
+      run: dotnet test "AtmiraTest.csjproj"
