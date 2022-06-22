@@ -14,6 +14,7 @@ namespace AtmiraAPI.Controllers
 
         [HttpGet("/planetName{planetName}")]
         [ProducesResponseType(200)]
+        [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         public async Task<IActionResult> GetListAsteroid(string planetName)
         {
